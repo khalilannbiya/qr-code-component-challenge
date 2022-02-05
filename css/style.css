@@ -10,12 +10,50 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
+
+}
+
+.wrapper-card {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 300px;
+  /* height: 450px; */
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em 1em 2em 1em;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.card h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 700;
+}
+
+.card p {
+  text-align: center;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: -20px;
 }
 
 .attribution a {
